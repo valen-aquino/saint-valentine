@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Contenedor de corazones flotantes de fondo -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Pantalla inicial -->
+    <div class="container" id="questionScreen">
+        <div class="question-box">
+            <h1 class="question-title">¿Te gustaría ser mi San Valentín?</h1>
+            <div class="sparkles">✨💕✨</div>
+
+            <div class="buttons-container">
+                <button class="btn btn-yes" id="yesBtn">
+                    Sí 💖
+                </button>
+                <button class="btn btn-no" id="noBtn">
+                    No
+                </button>
+            </div>
+
+            <div class="attempts-counter" id="attemptsCounter">
+                Intentos de decir "No": <span id="attemptsNumber">0</span>
+            </div>
+
+            <div class="easter-egg" id="easterEgg"></div>
+        </div>
+    </div>
+
+    <!-- Pantalla de éxito (oculta inicialmente) -->
+    <div class="success-screen" id="successScreen">
+        <div class="success-content">
+            <h1 class="success-title">¡Sabía que dirías que Sí! 🎉</h1>
+            <p class="success-message">💕 ¡Eres la persona más especial del mundo! 💕</p>
+            <div class="success-hearts">
+                <span class="beating-heart">❤️</span>
+                <span class="beating-heart">💖</span>
+                <span class="beating-heart">💗</span>
+                <span class="beating-heart">💕</span>
+                <span class="beating-heart">💝</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor de confetti -->
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
