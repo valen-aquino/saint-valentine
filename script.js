@@ -18,14 +18,14 @@ let noButtonMoved = 0;
 const easterEggMessages = [
     "",
     "🤔 ¿En serio?",
-    "😅 Vamos, sabes que quieres decir que sí...",
-    "😏 Insistes mucho en ese 'No'...",
-    "🙈 Ya casi te tengo...",
-    "😂 ¡Ríndete! El destino dice que sí",
-    "🎯 ¡Este botón tiene vida propia!",
-    "💪 ¿Cuántos intentos más?",
+    "😅 Daleee, sabes que quieres decir que sí...",
+    "😏 Insistis mucho ehh...",
+    "🙈 Daleeeeee...",
+    "😂 Es nuestro destino",
+    "🎯 Ta raro ese boton",
+    "💪 Cuántos intentos más?",
     "🌟 El universo quiere que digas SÍ",
-    "😎 Admítelo, ya te rendiste"
+    "😎 ya te rendiste, te tengo enamorada"
 ];
 
 // Crear corazones flotantes de fondo
